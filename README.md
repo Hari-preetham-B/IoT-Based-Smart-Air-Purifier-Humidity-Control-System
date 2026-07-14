@@ -148,16 +148,13 @@ The Arduino code included in this repository handles **sensor monitoring and dev
 # Project Structure
 
 ```
-Smart-Air-Purifier/
+IoT-Based-Smart-Air-Purifier-Humidity-Control-System/
 │
-├── Arduino_Code/
-│   └── air_purifier_control.ino
+├── arduino/
+│   └── air_purifier_control.ino    # Main Arduino sketch
 │
-├── Images/
-│   └── prototype_design.jpg
-│
-├── Circuit_Diagram/
-│   └── wiring_diagram.png
+├── images/
+│   └── prototype_design.jpg        # Hardware prototype photo
 │
 └── README.md
 ```
@@ -175,13 +172,12 @@ Smart-Air-Purifier/
 
 # Future Improvements
 
-Potential improvements include:
-
-- Automatic humidity threshold control
-- Integration of **air quality sensors (CO₂, PM2.5, VOC)**
-- Cloud-based data monitoring dashboard
-- Integration with smart home systems
-- Predictive environmental control using AI models
+- [x] Automatic humidity threshold control *(implemented)*
+- [x] Manual override via Blynk app *(implemented)*
+- [ ] Integration of air quality sensors (CO₂, PM2.5, VOC)
+- [ ] Cloud-based data logging dashboard
+- [ ] Integration with smart home systems (Google Home / Alexa)
+- [ ] Predictive environmental control using ML models
 
 ---
 
